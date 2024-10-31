@@ -82,6 +82,10 @@ font-weight: 600;
 
 .content h1{
 
+    user-select: none;
+
+    cursor: default;
+
     text-align: center;
 
     font-size:120px;
@@ -95,6 +99,10 @@ font-weight: 600;
 }
 
 .content h1:hover{
+
+    user-select: none;
+
+    cursor: default;
 
     -webkit-text-stroke: 2px #fff;
 
